@@ -1,0 +1,54 @@
+@import '@angular/material/prebuilt-themes/pink-bluegrey.css';
+
+main {
+    width: 600px;
+    margin: auto;
+    height: 100%;
+    position: relative;
+}
+button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+mat-expansion-panel {
+    margin-bottom: 8px;
+}
+section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.container {
+    width: 250px;
+    height: 100px;
+    border-radius: 8px;
+    margin: 8px;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+    justify-content: center;
+}
+.total {
+    background-color: #f2d3d4;
+}
+.pendentes {
+    background-color: #f8f296;
+}
+.andamento {
+    background-color: #f8f296;
+}
+.concluido {
+    background-color: #f8f296;
+}
+.title {
+    margin-bottom: 24px;
+    margin-top: 24px;
+}
+mat-expansion-panel{
+    background-color: #4b79b4; 
+}
+mat-expansion-panel-header{
+    background-color: #69a2ee;
+}
